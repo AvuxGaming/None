@@ -1383,7 +1383,7 @@ local esp = {} do
                     insert(texts, c)
                 end
 
-                local text = "[  " .. concat(texts, " | ") .. " ]"
+                local text = "  " .. concat(texts, "  ") .. " " --DISINI
                 oesp.Text = text
             end
         end
